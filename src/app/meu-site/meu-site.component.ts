@@ -33,4 +33,12 @@ this.valorSalvo = valor;
   onMouseOverOut(){
     this.isMouseOver = !this.isMouseOver;
   }
+
+  nome: string = 'abc';
+
+  pessoa: any = {
+    nome: 'def',
+    idade:20
+  }
+
 }
