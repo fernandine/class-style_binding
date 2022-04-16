@@ -12,4 +12,25 @@ export class MeuSiteComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  valorAtual: string = '';
+  valorSalvo = '';
+
+
+  botaoClicado(){
+  alert('Botão clicado!');
+  }
+
+  onkeyUp(evento:KeyboardEvent){
+    this.valorAtual=(<HTMLInputElement>evento.target).value;
+  }
+
+  salvarValor(valor: string){
+this.valorSalvo = valor;
+  }
+
+  isMouseOver: boolean = false;
+
+  onMouseOverOut(){
+    this.isMouseOver = !this.isMouseOver;
+  }
 }
