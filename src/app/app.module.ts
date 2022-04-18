@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { MeuSiteComponent } from './meu-site/meu-site.component';
+import { OutputPropertyComponent } from './output-property/output-property.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MeuSiteComponent
+    MeuSiteComponent,
+    OutputPropertyComponent
 
   ],
   imports: [

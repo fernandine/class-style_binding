@@ -57,7 +57,7 @@
         >Passe o mouse sobre mim!</span>
     </div>
   </article>
-</section>  -->
+</section>
 
 <section class="two-way-binding">
   <article>
@@ -90,4 +90,19 @@
 
       </div>
   </article>
+</section>
+-->
+
+<section class="input-output-properties">
+
+  <article>
+
+    <h3>Input/Output Properties</h3>
+
+    <app-meu-site nome="nomeDocurso"></app-meu-site>
+    <contador [valor]="10"
+    mudouValor="onMudouValor($event)"
+    ></contador>
+  </article>
+
 </section>
